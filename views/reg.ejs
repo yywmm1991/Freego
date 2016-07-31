@@ -1,0 +1,40 @@
+<%- include header %>
+
+
+<div class="container">
+
+	<form name="sigup-form" class="col-md-3 col-md-offset-4 form-horizontal" method="post">
+	<div class="form-signup-heading">SignUp</div>
+		<div class="form-group">
+			<label for="InputUsername">Username</label>
+			<input type="text" name="name" id="InputUsername" class="form-control" placeholder="Username" required>
+		</div>
+
+		<div class="form-group">
+	        <label for="inputPassword">Password</label>
+	        <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
+        </div>
+		<div class="form-group">
+	        <label for="inputPassword2">Repeat-Password</label>
+	        <input type="password" id="inputPassword2" name="password-repeat" class="form-control" placeholder="Repeat-Password" required>
+	    </div>
+		<div class="form-group">
+			<label for="inputEmail">Email</label>
+			<input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required>
+		</div>
+		<div class="form-group">
+			<label for="inputNumber">Phone-Number</label>
+			<input type="number" id="inputNumber" name="phone" class="form-control" placeholder="Phone number" required>
+		</div>
+
+	    <div class="reg-err">
+			<% if (reg_error) { %>
+				<button type="button" class="btn btn-warning"><%= reg_error %></button>
+			<% } %>
+	    </div>
+        <input class="btn btn-lg btn-primary" type="submit" value="SignUp"></input>
+      </form>
+
+
+ </div>
+<%- include footer %>

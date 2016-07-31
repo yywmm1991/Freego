@@ -1,0 +1,59 @@
+.content{
+    margin-top: 15px;
+}
+header {
+    margin-top: 100px;
+}
+
+.maincontent {
+    margin-top: 80px;
+    min-height: 700px;
+}
+
+
+.popup {
+    position: absolute;
+    margin: -20px 0 0 1050px;
+}
+
+
+.reg-err {
+    margin-bottom: 20px;
+}
+
+.signup-form input {
+    margin-bottom: 20px;
+}
+
+.form-signup-heading {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+
+.content-bottom {
+    margin: 20px 0 10px 0;
+}
+
+
+.comment-form-heading {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.comment-heading {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer {
+    float:left;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
